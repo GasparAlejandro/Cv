@@ -70,10 +70,10 @@
 				<strong>Ubicación:</strong>
 				<br>
 				México, CDMX
-				<br>
+				<br> <!--
 				<strong>Whatsapp:</strong>
 				<br>
-				55-80-98-55-16
+				55-80-98-55-16-->
 			</p>
 		</div>
 	</div>
@@ -102,7 +102,7 @@
 	<div class="row">
 		<div class="col-md-4">
 			<h3>Educación</h3>
-			<strong>ITIC´S</strong><br>
+			<strong>Instituto Tecnológico de Gustavo A. Madero</strong><br>
 				<p>	
 			Ene 2010        - 
 			Jul 2016</p>
@@ -112,13 +112,13 @@
 		<br><br><br>
 		<p>
 			<strong>
-			Desarrollador Web
+			ITIC´S
 			</strong> <br><br>
-			<span>consiste en transformar el diseño en un sitio web funcional, es un proceso <br>	
-				  de interación en el que se construye el sitio que se planeó en el diseño y <br>
-				  se le van haciendo modificaciones, adecuaciones y mejoras ya que <br>
-				  el producto funcionando abre mayores posibilidades creativas para regresar <br>
-				  a la etapa de diseño y hacer modificaciones.<br><br> </span>
+			<span>Dirigir proyectos del área de las tecnologías de la información para<br>
+				 contribuir con la productividad de las empresas y organizaciones mediante<br>
+				 el uso de metodologías y tecnologías que satisfagan las necesidades<br>
+				 del sector productivo también evaluará sistemas de información existentes<br>
+				 para establecer acciones de mejora e innovación.<br><br> </span>
 		</p>
 		</div>
 		
@@ -314,27 +314,42 @@
 
 
 	<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-11">
-			<section class="footlink">
-  	<div class="reseauxsociaux">
- 	<a href="https://www.youtube.com/channel/UCN8eMXDedkk48MKxo_wYO0g" target="_blank"><img src="http://www.story-fab.com/img/icone_youtube.svg"/></a>
-   	<a href="https://www.facebook.com/profile.php?id=100011693467578" target="_blank"><img src=" http://www.story-fab.com/img/icone_facebook.svg"/></a>
-  	<a href="https://twitter.com/alexGaspar1000" target="_blank"><img src=" http://www.story-fab.com/img/icone_twitter.svg"/></a>
-  	<a href="https://www.instagram.com/fuckmylife01/" target="_blank"><img src=" http://www.story-fab.com/img/icone_instagram.svg"/></a>	   
-  	</div>
-</section> 
-		</div>
-		</div>
-
-		<div class="col-md-6">
-			<br><br><br>
-		</div>
-		</div>
-
-	<hr><br><br>
+	 <div class="row" style="padding: 50px 0;">
+    <div class="col-md-6">
+    <div class="footer-social-icons">
+    <h4 class="_14">Follow</h4>
+    <ul class="social-icons">
+        <li><a href="https://www.facebook.com/profile.php?id=100011693467578" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/alexGaspar1000" target="_blank" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCN8eMXDedkk48MKxo_wYO0g" target="_blank" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://www.instagram.com/fuckmylife01/" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://plus.google.com/u/0/109956873558281294722" target="_blank" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+    </ul>
 </div>
-</div>
+    <br>
+    </div>
+
+    <div class="col-md-6">
+        <form id="formContacto">
+    <!--<div class="loader"><img src="img/loader.gif"></div>-->
+      <div class="form-group">
+      <label for="nombreCompleto">Nombre completo:</label>
+        <input type="text" class="form-control" name="nombreCompleto" placeholder="Escribe tu nombre" id="nombreContacto" required>
+      </div>
+        <div class="form-group">
+      <label for="correoElectronico">Correo electrónico:</label>
+        <input type="text" class="form-control" name="correoElectronico" placeholder="Escribe tu correo" id="correoContacto" required>
+      </div>
+        <div class="form-group">
+      <label for="asunto">Asunto:</label>
+        <textarea class="form-control" name="asunto" cols="40" rows="5" placeholder="Escribe tu mensaje" id="asuntoContacto" required></textarea>   
+      </div>
+      <div id="errorContacto"></div>
+
+      <div class="btn btn-primary" id="btnEnvioContacto" >Enviar</div>
+    </form>
+    </div>
+  </div>
 </div>
 
 
