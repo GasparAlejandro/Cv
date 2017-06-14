@@ -62,7 +62,7 @@ $star-color: #f22613;
 
 .primerParallax{
     height: 650px;
-    background-image: url(../img/parallax/Joker.jpg);
+    background-image: url(../img/parallax/etiquetas.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,7 +120,6 @@ div img {
 }
 
 /*Redes sociales*/
-
 
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
@@ -232,19 +231,44 @@ ul.social-icons {
     background-color: #e25714;
 }
 
+.fa-envelope {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-envelope:hover {
+    background-color: #e25714;
+}
+
+.fa-github {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #e25714;
+}
+
 /*ImagenHover*/
-.imgLetra {
-  margin:0;
-  padding:0;
+
+.imgLetra{
+  
   color:#fff;
-  font-family:Arial;
 }
 
 div#imagen {
   width: 390px;
   height: 286px;
   background-size: cover;/*sólo para ejemplo*/
-  background-image: url("../img/Proyectos/SME2016.png");
+  background-image: url(../img/proyectos/SME2016.png);
   margin: 30px auto;
 }
 
@@ -264,8 +288,8 @@ div#imagen:hover div#info {
 
 p#headline {
   position: absolute;
-  font-size: 3.5rem;
-  margin-left: -15px;
+  font-size: 1.5rem;
+  margin-left: -75px;
   margin-top: 15px;
   transition: margin-left 0.3s;
 }
@@ -275,7 +299,7 @@ div#imagen:hover p#headline {
 }
 
 p#descripcion {
-  font-size: 1.7rem;
+  font-size: 2rem;
   text-align: center;
   margin-top: 200px;
   transition: margin-top 0.4s;
@@ -284,7 +308,6 @@ p#descripcion {
 div#imagen:hover p#descripcion {
   margin-top: 75px;
 }
-
 
 
 /*titulo*/
